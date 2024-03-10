@@ -10,7 +10,7 @@ programa {
     escreva("Qual a quantidade: ")
     leia(quantidade)
 
-    escreva("Qual o preço do produto: ")
+    escreva("Qual o preÃ§o do produto: ")
     leia(precoUni)
 
     total = precoUni * quantidade
@@ -29,8 +29,8 @@ programa {
     escreva("=== Exibindo resultados ===")
     escreva("\nNome do produto: R$ ", nome)
     escreva("\nQuantidade do produto: R$ ", quantidade)
-    escreva("\nPreço do produto: R$ ", precoUni)
-    escreva("\nPreço total: R$ ", total)
+    escreva("\nPreÃ§o do produto: R$ ", precoUni)
+    escreva("\nPreÃ§o total: R$ ", total)
     escreva("\nDesconto: R$ ", desconto)
     escreva("\nValor final: R$ ", totalPagamento)
   }
